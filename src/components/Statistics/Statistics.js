@@ -10,7 +10,11 @@ export default function Statistics({ stats, title }) {
         {stats.map(({ id, label, percentage }) => {
           const bgColor = getRandomHexColor();
           return (
-            <li className={css.item} key={id} style={{backgroundColor: `${bgColor}`}}>
+            <li
+              className={css.item}
+              key={id}
+              style={{ backgroundColor: `${bgColor}` }}
+            >
               <span className={css.label}>{label}</span>
               <span className={css.percentage}>{percentage}%</span>
             </li>
