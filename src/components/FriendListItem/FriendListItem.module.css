@@ -3,13 +3,34 @@
   align-items: center;
   margin-bottom: 15px;
   padding: 15px;
-  border: 1px solid #000000;
-}
-
-.statusOnline {
-  background-color: rgba(0, 255, 8, 0.5);
+  border-radius: 5px;
+  box-shadow: rgba(46, 57, 69, 0.2) 0px 8px 24px;
+  background-color: #fff;
 }
 
 .statusOffline {
-  background-color: rgba(255, 162, 0, 0.5);
+  background-color: rgb(219, 72, 72);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.statusOnline {
+  background-color: rgb(45, 192, 76);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin: 0;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.name {
+  margin: 0;
+  padding-left: 15px;
+  font-size: 26px;
+  font-weight: 500;
 }

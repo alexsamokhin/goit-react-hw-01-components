@@ -4,13 +4,17 @@
   width: 400px;
   text-align: center;
   font-size: 16px;
-  border: 1px solid rgb(175, 175, 175);
+  border-radius: 5px;
+  box-shadow: rgba(46, 57, 69, 0.2) 0px 8px 24px;
+  background-color: #fff;
 }
 
 .title {
+  color: rgba(78, 78, 78, 0.7);
   padding: 10px;
   font-size: 28px;
   text-transform: uppercase;
+
 }
 
 .statList {
@@ -32,8 +36,12 @@
 }
 
 .label {
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
 }
 .percentage {
   font-size: 24px;
+  font-weight: 500;
+  color: #fff;
 }

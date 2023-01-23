@@ -3,14 +3,27 @@
   text-align: center;
   font-size: 18px;
   width: 400px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(46, 57, 69, 0.2) 0px 8px 24px;
+  background-color: #fff;
 }
 .head {
   text-transform: uppercase;
   font-size: 20px;
+  background-color: rgba(38, 156, 148, 0.6);
 }
 
 .cell {
   width: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
+  border: none;
+}
+
+.row {
+  border: none;
+}
+
+.row:nth-child(even) {
+  background-color: rgb(231, 231, 231);
 }
